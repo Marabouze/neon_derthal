@@ -1,0 +1,97 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    font-size: large;
+    text-align: center;
+    padding: 100px 0;
+    background: url('src/photo_2023-08-26_19-27-00.jpg') no-repeat center/cover;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8), 0 0 20px rgba(255, 0, 255, 0.8), 0 0 30px rgba(255, 0, 255, 0.8);
+}
+.about,
+.services,
+.contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service {
+    margin-top: 30px;
+}
+
+/* Общие стили галереи */
+.gallery-slider {
+    width: 100%; /* Занимает 100% ширины родительского контейнера */
+    overflow: hidden; /* Скрывает изображения, выходящие за пределы галереи */
+}
+
+.gallery-slider div img {
+    max-width: 100%; /* Максимальная ширина изображения - 100% от родительского элемента */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+}
+
+/* Стили для стрелок карусели */
+.slick-prev,
+.slick-next {
+    font-size: 24px; /* Размер шрифта стрелок */
+    color: #fff; /* Цвет стрелок */
+    z-index: 1; /* Убеждаемся, что стрелки отображаются поверх слайдов */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input,
+textarea,
+button {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: #ff00ff;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #ff00ff;
+}
+/* Общие стили галереи */
+
+
+
+
